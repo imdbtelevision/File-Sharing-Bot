@@ -36,7 +36,7 @@ JOIN_REQUEST_ENABLE = os.environ.get("JOIN_REQUEST_ENABLED", None)
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_PIC = os.environ.get("START_PIC","")
+START_PIC = os.environ.get("START_PIC","https://envs.sh/Pa.jpg")
 START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI am the owner of @IMDB_TELEVISION.")
 try:
     ADMINS=[]
